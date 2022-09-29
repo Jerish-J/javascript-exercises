@@ -1,4 +1,11 @@
-const repeatString = function() {
+const repeatString = function(string, num) {
+    if (num == -1) {
+        return "ERROR"
+    } else {
+        repeat = string.repeat(num)
+        return repeat
+    }
+
 
 };
 
